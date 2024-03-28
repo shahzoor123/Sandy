@@ -80,7 +80,7 @@ def chat():
 
 @app.route('/test', methods=['GET'])
 def test():
-  return "I am live" # Debugging line
+  return "hello World" # Debugging line
   
 
 
