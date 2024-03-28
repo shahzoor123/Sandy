@@ -77,6 +77,13 @@ def chat():
   print(f"Assistant response: {response}")  # Debugging line
   return jsonify({"response": response})
 
+
+@app.route('/test', methods=['GET'])
+def test():
+  return "I am live" # Debugging line
+  
+
+
 # Run server
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=8080)
