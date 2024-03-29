@@ -30,6 +30,8 @@ client = OpenAI(
 # Create new assistant or load existing
 assistant_id = functions.create_assistant(client)
 
+
+
 # Start conversation thread
 @app.route('/start', methods=['GET'])
 def start_conversation():
